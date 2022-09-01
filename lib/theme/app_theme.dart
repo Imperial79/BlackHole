@@ -81,7 +81,7 @@ class AppTheme {
     return ThemeData(
       textButtonTheme: TextButtonThemeData(
         style: TextButton.styleFrom(
-          foregroundColor: Colors.white,
+          surfaceTintColor: Colors.white,
           backgroundColor: Colors.transparent,
           elevation: 0.0,
         ),
@@ -106,7 +106,7 @@ class AppTheme {
       brightness: Brightness.dark,
       appBarTheme: AppBarTheme(
         color: currentTheme.getCanvasColor(),
-        foregroundColor: Colors.white,
+        surfaceTintColor: Colors.white,
       ),
       canvasColor: currentTheme.getCanvasColor(),
       cardColor: currentTheme.getCardColor(),

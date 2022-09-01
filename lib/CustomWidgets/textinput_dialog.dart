@@ -62,7 +62,7 @@ Future<void> showTextInputDialog({
         actions: [
           TextButton(
             style: TextButton.styleFrom(
-              foregroundColor: Theme.of(context).brightness == Brightness.dark
+              surfaceTintColor: Theme.of(context).brightness == Brightness.dark
                   ? Colors.white
                   : Colors.grey[700],
             ),
@@ -73,7 +73,7 @@ Future<void> showTextInputDialog({
           ),
           TextButton(
             style: TextButton.styleFrom(
-              foregroundColor:
+              surfaceTintColor:
                   Theme.of(context).colorScheme.secondary == Colors.white
                       ? Colors.black
                       : Colors.white,

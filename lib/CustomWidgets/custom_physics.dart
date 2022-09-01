@@ -18,6 +18,7 @@
  */
 
 import 'package:flutter/material.dart';
+import 'package:flutter/physics.dart';
 
 class CustomPhysics extends ScrollPhysics {
   const CustomPhysics({super.parent});

@@ -277,7 +277,7 @@ class _PrefScreenState extends State<PrefScreen> {
                                                       TextButton(
                                                         style: TextButton
                                                             .styleFrom(
-                                                          foregroundColor:
+                                                          surfaceTintColor:
                                                               Theme.of(context)
                                                                   .colorScheme
                                                                   .secondary,
@@ -297,7 +297,7 @@ class _PrefScreenState extends State<PrefScreen> {
                                                       TextButton(
                                                         style: TextButton
                                                             .styleFrom(
-                                                          foregroundColor:
+                                                          surfaceTintColor:
                                                               Theme.of(context)
                                                                   .colorScheme
                                                                   .secondary,

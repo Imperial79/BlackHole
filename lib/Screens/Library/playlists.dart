@@ -268,7 +268,7 @@ class _PlaylistScreenState extends State<PlaylistScreen> {
                                     actions: [
                                       TextButton(
                                         style: TextButton.styleFrom(
-                                          foregroundColor:
+                                          surfaceTintColor:
                                               Theme.of(context).brightness ==
                                                       Brightness.dark
                                                   ? Colors.white
@@ -286,7 +286,7 @@ class _PlaylistScreenState extends State<PlaylistScreen> {
                                       ),
                                       TextButton(
                                         style: TextButton.styleFrom(
-                                          foregroundColor: Theme.of(context)
+                                          surfaceTintColor: Theme.of(context)
                                                       .colorScheme
                                                       .secondary ==
                                                   Colors.white
@@ -563,7 +563,7 @@ class _PlaylistScreenState extends State<PlaylistScreen> {
                                           actions: [
                                             TextButton(
                                               style: TextButton.styleFrom(
-                                                foregroundColor:
+                                                surfaceTintColor:
                                                     Theme.of(context)
                                                         .iconTheme
                                                         .color,
@@ -580,7 +580,7 @@ class _PlaylistScreenState extends State<PlaylistScreen> {
                                             ),
                                             TextButton(
                                               style: TextButton.styleFrom(
-                                                foregroundColor: Colors.white,
+                                                surfaceTintColor: Colors.white,
                                                 backgroundColor:
                                                     Theme.of(context)
                                                         .colorScheme
